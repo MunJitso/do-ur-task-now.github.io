@@ -60,11 +60,11 @@ h1 {
 }
 
 .todoContainer {
-    padding: 0 17.5rem;
+    padding: 0;
 }
 
 .noteContainer {
-    padding: 2rem 17.5rem;
+    padding: 2rem 0;
     color: rgb(114, 114, 114);
     text-align: center;
 }
