@@ -9,6 +9,10 @@ addToDoButton.addEventListener('click', function() {
     var paragraph = document.createElement('p')
     paragraph.classList.add('para');
     paragraph.innerText = inputField.value;
+    if (inputField.value === '') {
+        alert('Write Something');
+        todoContainer.removeChild(paragraph);
+    }
     todoContainer.appendChild(paragraph);
     inputField.value = '';
     paragraph.addEventListener('click', function() {
